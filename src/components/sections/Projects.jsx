@@ -115,6 +115,34 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
+
+            <div className="w-full p-6 rounded-xl border border-normal/10 hover:-translate-y-1 hover:border-primary/30 hover:shadow-secondary/20 transition-all">
+              <h3 className="text-xl font-bold mb-2">Cyber Risk Analyzer</h3>
+              <p className="text-secondary mb-3">
+                A cyber risk analysis tool using Python to evaluate vulnerabilities with CVSS scoring and risk modeling.
+                Implemented interactive dashboards and automated reporting for risk visualization and prioritization.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {["Python", "Html", "Css"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-primary/10 text-primary py-1 px-3 rounded-3xl text-sm hover:bg-primary/20 hower-shaow-secondary/20 transition"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-end items-center">
+                <a
+                  className="text-primary hover:text-main-header/60 transition-colors"
+                  href="https://celul123.github.io/cyber-risk-analyzer/"
+                >
+                  {" "}
+                  View Project ➜{" "}
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </RevealOnScroll>

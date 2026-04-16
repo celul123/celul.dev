@@ -19,7 +19,7 @@ export const Home = () => {
             If you came here to check my cv it is{" "}
             <a
               className="underline"
-              href="https://drive.google.com/file/d/14ehS9eRnZCep8yf0D24Wa1LNGD5tks1O/view?usp=sharing"
+              href="https://drive.google.com/file/d/11aTAAkfigNk83BIE6U3Dl2AhIP6nYoZt/view?usp=sharing"
             >
               here
             </a>
